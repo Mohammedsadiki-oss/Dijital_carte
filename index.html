@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090909">
+    <title>My Digital Business Card</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <main class="card">
+        <div class="top-label">DIGITAL BUSINESS CARD</div>
+
+        <div class="profile-image">
+            <img src="profile.png" alt="Profile photo">
+        </div>
+
+        <h1 id="name">Your Name</h1>
+        <p id="job">Your Professional Title</p>
+
+        <p id="bio">
+            Welcome to my digital space. Let's connect and create opportunities together.
+        </p>
+
+        <div class="buttons">
+            <a id="whatsapp" class="btn whatsapp" href="#" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+
+            <a id="phone" class="btn" href="#">
+                <i class="fa-solid fa-phone"></i> Call Me
+            </a>
+
+            <a id="email" class="btn" href="#">
+                <i class="fa-solid fa-envelope"></i> Email
+            </a>
+
+            <button class="btn" onclick="saveContact()">
+                <i class="fa-solid fa-address-card"></i> Save Contact
+            </button>
+        </div>
+
+        <div class="social-links">
+            <a id="instagram" href="#" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a id="linkedin" href="#" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+
+            <a id="facebook" href="#" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <button class="btn" onclick="saveContact()">
+                <i class="fa-solid fa-address-book"></i>
+                Add to Contacts
+            </button>
+        </div>
+
+        <footer>
+            TAP • CONNECT • KEEP IN TOUCH
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
