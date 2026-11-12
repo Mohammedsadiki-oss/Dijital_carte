@@ -9,7 +9,7 @@ const profile = {
     whatsapp: "2120775380689",
     email: "sadikie340@email.com",
 
-    instagram: "www.instagram.com/____sadiki____",
+    instagram: "https://www.instagram.com/____sadiki____?psln=dXZmeHltdm5hczlp&utm_source=qr",
     linkedin: "https://www.linkedin.com/in/mohamed-sadiki-8484723a9/",
 
     facebook: "https://www.facebook.com/share/1FPrnNiYxd/?mibextid=wwXIfr"
